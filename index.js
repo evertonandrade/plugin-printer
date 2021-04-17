@@ -5,7 +5,7 @@ class Operation {
   }
 }
 
-class ConectorPlugin {
+export class ConectorPlugin {
   static URL_PLUGIN_DEFAULT = 'http://localhost:8000';
   static OperationTicket = Operation;
   static Constants = {
@@ -258,7 +258,3 @@ class ConectorPlugin {
     return await response.json();
   }
 }
-
-module.exports = {
-  ConectorPlugin,
-};
