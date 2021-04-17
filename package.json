@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/evertonandrade/plugin-printer.git"
   },
-  "keywords": [],
+  "keywords": ["printer", "plugin", "browser", "web"],
   "author": "Everton Andrade",
   "license": "MIT",
   "bugs": {
